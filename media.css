@@ -1,0 +1,64 @@
+@media  screen and (max-width: 750px) {
+  nav {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    width: 80%; 
+    background-color:rgb(216, 148, 22); 
+    margin-left: 7%;
+  }
+  nav > div{
+    /* width: 100%; */
+    padding: 20px;
+  }
+  .secondSection img {
+    width: 400px;
+    margin-top: 30px;
+}
+.aboutSection > main >article{
+display: inline;
+}
+.aboutSection > main >article> img{
+  
+}
+about{
+  display: none;
+}
+.aboutSection > main > article {
+  width: 50%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.274);
+  border-radius: 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects {
+  width: 80vw;
+  height: 80%;
+  background-image: linear-gradient(rgb(29, 72, 121), rgb(5, 68, 88));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{ 
+  display: flex;
+  overflow:scroll;
+  width: 50%;
+  height: 50%;
+  border: 1px solid red;
+
+}
+.projects > main {
+  /* border: 3px solid; */
+}
+  }
+  @media  screen and (min-width: 600px) {
+    nav > div{
+     width: 80%;
+      padding: 35px;
+    }
+    }
+  
