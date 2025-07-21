@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  /* border: 2px solid red; */
 }
 #mainBody {
   width: 100%;
@@ -33,7 +34,7 @@ nav {
   /* border: 2px solid; */
   position: fixed;
   left: 20px;
-  z-index: 100;
+  z-index: 1;
 }
 nav > div {
   /* border: 1px solid snow; */
@@ -78,8 +79,8 @@ nav > div > a > i {
   margin: 10px;
 }
 .about {
-  width: 80%;
-  height: 60%;
+  /* width: 80%;
+  height: 60%; */
   /* background: rgba(0, 0, 0, 0.203); */
   display: flex;
 }
@@ -121,7 +122,7 @@ nav > div > a > i {
   font-size: 25px;
 }
 .projects {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-image: linear-gradient(rgb(29, 72, 121), rgb(5, 68, 88));
   display: flex;
@@ -140,28 +141,6 @@ nav > div > a > i {
   color: rgb(255, 255, 255);
   padding: 30px 0;
 }
-/*
-.projects > main > article > div {
-  width: 45%;
-  height: 45%;
-  border: 3px solid;
-  background: #00000020;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
-  padding: 30px;
-  color: rgb(196, 196, 196);
-}*/
-
-/* .projects > main > article > div > h1 {
-  font-size: 30px;
-}
-.projects > main > article > div > p {
-  font-size: 20px;
-} */
 .experience,
 .achievements,
 .contact {
